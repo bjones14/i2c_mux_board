@@ -1,0 +1,58 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# GND-cannapi_control_board-eagle-import
+#
+DEF GND-cannapi_control_board-eagle-import ~ 0 40 Y Y 1 L P
+F0 "" 0 0 50 H I C CNN
+F1 "GND-cannapi_control_board-eagle-import" -60 -100 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 0 50 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# HEADER-1X12-cannapi_control_board-eagle-import
+#
+DEF HEADER-1X12-cannapi_control_board-eagle-import JP 0 40 Y Y 1 L N
+F0 "JP" -250 725 59 H V L BNN
+F1 "HEADER-1X12-cannapi_control_board-eagle-import" -250 -700 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -600 50 -600 N
+P 2 1 0 0 -250 700 -250 -600 N
+P 2 1 0 0 50 -600 50 700 N
+P 2 1 0 0 50 700 -250 700 N
+X 1 1 -100 600 100 R 50 0 1 0 P I
+X 10 10 -100 -300 100 R 50 0 1 0 P I
+X 11 11 -100 -400 100 R 50 0 1 0 P I
+X 12 12 -100 -500 100 R 50 0 1 0 P I
+X 2 2 -100 500 100 R 50 0 1 0 P I
+X 3 3 -100 400 100 R 50 0 1 0 P I
+X 4 4 -100 300 100 R 50 0 1 0 P I
+X 5 5 -100 200 100 R 50 0 1 0 P I
+X 6 6 -100 100 100 R 50 0 1 0 P I
+X 7 7 -100 0 100 R 50 0 1 0 P I
+X 8 8 -100 -100 100 R 50 0 1 0 P I
+X 9 9 -100 -200 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# VCC-cannapi_control_board-eagle-import
+#
+DEF VCC-cannapi_control_board-eagle-import #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "VCC-cannapi_control_board-eagle-import" -60 40 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 -50 0 0 N
+P 2 1 0 0 0 0 50 -50 N
+X VCC 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+#End Library

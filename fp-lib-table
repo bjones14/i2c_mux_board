@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name TE_282837-4)(type KiCad)(uri ${KIPRJMOD}/TE_282837-4)(options "")(descr ""))
+  (lib (name TE_282837-8)(type KiCad)(uri ${KIPRJMOD}/TE_282837-8)(options "")(descr ""))
+  (lib (name Adafruit_TCA9548A)(type KiCad)(uri ${KIPRJMOD}/Adafruit_TCA9548A)(options "")(descr ""))
+)

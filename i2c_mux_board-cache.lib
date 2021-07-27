@@ -1,0 +1,100 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 282837-4_282837-4
+#
+DEF 282837-4_282837-4 J 0 40 Y Y 1 L N
+F0 "J" 0 500 50 H V L BNN
+F1 "282837-4_282837-4" 0 -400 50 H V L BNN
+F2 "TE_282837-4" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "G3" 0 0 50 H I L BNN "PARTREV"
+F5 "MANUFACTURER RECOMMENDATIONS" 0 0 50 H I L BNN "STANDARD"
+F6 "TE CONNECTIVITY" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -200 -200 200 300 0 0 16 f
+X 1 1 -400 200 200 R 40 40 0 0 P
+X 2 2 -400 100 200 R 40 40 0 0 P
+X 3 3 -400 0 200 R 40 40 0 0 P
+X 4 4 -400 -100 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 282837-8_282837-8
+#
+DEF 282837-8_282837-8 J 0 40 Y Y 1 L N
+F0 "J" -200 430 50 H V L BNN
+F1 "282837-8_282837-8" -200 -601 50 H V L BNN
+F2 "TE_282837-8" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "H" 0 0 50 H I L BNN "PARTREV"
+F5 "TE CONNECTIVITY" 0 0 50 H I L BNN "MANUFACTURER"
+F6 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+DRAW
+S -200 -500 200 400 0 0 10 f
+X 1 1 -400 300 200 R 40 40 0 0 P
+X 2 2 -400 200 200 R 40 40 0 0 P
+X 3 3 -400 100 200 R 40 40 0 0 P
+X 4 4 -400 0 200 R 40 40 0 0 P
+X 5 5 -400 -100 200 R 40 40 0 0 P
+X 6 6 -400 -200 200 R 40 40 0 0 P
+X 7 7 -400 -300 200 R 40 40 0 0 P
+X 8 8 -400 -400 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# i2c_mux_board-rescue_GND-cannapi_control_board-eagle-import
+#
+DEF i2c_mux_board-rescue_GND-cannapi_control_board-eagle-import ~ 0 40 Y Y 1 L P
+F0 "" 0 0 50 H I C CNN
+F1 "i2c_mux_board-rescue_GND-cannapi_control_board-eagle-import" -60 -100 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 0 50 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# i2c_mux_board-rescue_HEADER-1X12-cannapi_control_board-eagle-import
+#
+DEF i2c_mux_board-rescue_HEADER-1X12-cannapi_control_board-eagle-import JP 0 40 Y Y 1 L N
+F0 "JP" -250 725 59 H V L BNN
+F1 "i2c_mux_board-rescue_HEADER-1X12-cannapi_control_board-eagle-import" -250 -700 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -600 50 -600 N
+P 2 1 0 0 -250 700 -250 -600 N
+P 2 1 0 0 50 -600 50 700 N
+P 2 1 0 0 50 700 -250 700 N
+X 1 1 -100 600 100 R 50 0 1 0 P I
+X 10 10 -100 -300 100 R 50 0 1 0 P I
+X 11 11 -100 -400 100 R 50 0 1 0 P I
+X 12 12 -100 -500 100 R 50 0 1 0 P I
+X 2 2 -100 500 100 R 50 0 1 0 P I
+X 3 3 -100 400 100 R 50 0 1 0 P I
+X 4 4 -100 300 100 R 50 0 1 0 P I
+X 5 5 -100 200 100 R 50 0 1 0 P I
+X 6 6 -100 100 100 R 50 0 1 0 P I
+X 7 7 -100 0 100 R 50 0 1 0 P I
+X 8 8 -100 -100 100 R 50 0 1 0 P I
+X 9 9 -100 -200 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# i2c_mux_board-rescue_VCC-cannapi_control_board-eagle-import
+#
+DEF i2c_mux_board-rescue_VCC-cannapi_control_board-eagle-import #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "i2c_mux_board-rescue_VCC-cannapi_control_board-eagle-import" -60 40 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 -50 0 0 N
+P 2 1 0 0 0 0 50 -50 N
+X VCC 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+#End Library

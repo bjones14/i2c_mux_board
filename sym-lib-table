@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name adafruit_i2cmux_eagle-import)(type Legacy)(uri C:/Users/bjone/Documents/i2c_mux_board/Adafruit_TCA9548A/adafruit_tca9548a_import.lib)(options "")(descr ""))
+  (lib (name 282837-4)(type Legacy)(uri ${KIPRJMOD}/TE_282837-4/282837-4.lib)(options "")(descr ""))
+  (lib (name 282837-8)(type Legacy)(uri ${KIPRJMOD}/TE_282837-8/282837-8.lib)(options "")(descr ""))
+  (lib (name i2c_mux_board-rescue)(type Legacy)(uri ${KIPRJMOD}/i2c_mux_board-rescue.lib)(options "")(descr ""))
+)
